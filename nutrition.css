@@ -1,0 +1,355 @@
+* {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app, #header{
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#tab{
+    padding-left: 10px;
+}
+#percent{
+    font-weight: bold;
+}
+.card-title{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.card-text-small{
+    font-size: 13px;
+    text-align: right; 
+}
+
+.border{
+    height: 8px;
+}
+.border-smaller{
+    height:4px;
+    margin-top: 10px;
+}
+
+.border, .border-smaller{
+    width: 90%;
+    color: #dccfbf;
+    background-color:#dccfbf;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 300px;
+    font-family: 'Limelight', cursive;
+    text-align: center;
+}
+
+.header{
+    font-family: 'Limelight', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+#question{
+    height: 30px;
+    width: auto;
+}
+
+.sb-example-1{
+    margin: auto;
+    width: 20%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:inline;
+
+}
+.sb-example-1 .search {
+    position: relative;
+    display: flex;
+    margin:auto;
+  }
+  .sb-example-1 .searchTerm {
+    width: 400px;
+    border: 3px solid #dccfbf;
+    border-right: none;
+    padding: 5px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    color:#dccfbf;
+    /* color: #f3be3b; */
+  }
+  .sb-example-1 .searchTerm:focus{
+    color: black;
+  }
+
+
+  .sb-example-1 .searchButton {
+    width: 100px;
+    border: 1px solid #dccfbf;
+    background: #dccfbf;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+.card-body{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+#kortele{
+    width: 25rem;
+    margin-top: 50px;
+}
+.card-title{
+    font-weight: 900;
+    font-size: 20px;
+    margin-top:-20px;
+    padding-bottom: 30px;
+}
+.btn{
+    background-color: #dccfbf  !important;
+    border-color: #dccfbf  !important;
+}
+h3{
+    /* color: #e4dbcc; */
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;  
+}
+/* .flex{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
+.flex {
+    position: relative;
+    background-image: url('mush.jpeg');
+	background-position: center;
+    min-height: 750px;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    
+}
+ /* #mush{
+    width:900px;
+} */
+
+#colories{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    height: 400px;
+    width:auto;  
+} 
+
+/* #content{
+    float: right;
+    margin-right: 10rem;
+    margin-top: -45rem;
+
+} */
+h2{
+    font-family: 'Limelight', cursive;
+}
+#colories h2{
+    font-size: 100px;
+    position:absolute;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border-bottom: 1px solid #9E9D9D; */
+    font-size:15px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
+    background-color: white !important;
+    z-index: 99;
+}
+.navbar ul{
+    list-style: none;
+    padding-top: 8px;
+    display: table; 
+}
+.navbar li, p{
+   display: table-cell;
+   position: relative;
+}
+li:hover {
+    transform: scale(1.2);
+}
+a {
+   display: inline;
+   color: black;
+   letter-spacing: 0.15em;
+   position: relative;
+   transition: 0.3s;
+}
+a:hover{
+    color: #dccfbf !important;
+    transform: scale(1, 0.7);
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: black !important;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+.navbar p{
+    letter-spacing: 0.08em;
+}
+.columns a:hover{
+    font-size: 110%;
+}
+
+.navbar-button{
+    padding:30px;
+}
+
+.media a{
+    padding: 10px;
+}
+
+.columns a{
+    padding-top: 5px;
+    font-size: 14px;
+}
+/* img{
+    margin-bottom: 50px;
+} */
+footer {
+    margin-top:20px;
+    line-height: 50px;
+    height: 50px;
+    /* border-top: 1px solid #9E9D9D; */
+    text-align: center;
+    position: relative;
+    background: white;
+  }
+  
+  /* If the text has multiple lines, add the following: */
+  footer p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 0.08em;
+  }
+    #content{
+        justify-content:center;
+        display:flex;
+        align-items: center;
+    }
+
+  @media screen and (max-width: 1334px){
+   .sb-example-1{ justify-content: center;}
+    #colories h2{ text-align: center;}
+}
+@media screen and (min-width: 816px) and (max-width: 886px){
+    .navbar{ border-bottom: none;}
+    footer{border-top: none;}
+}
+  @media screen and (min-width: 816px){
+    .topnav{display:none;}
+    #content{
+        justify-content:center;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+}
+@media screen and (max-width: 815px){
+.navbar{visibility:hidden;}
+.columns{display:none;}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    color: black;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .topnav i{
+    font-size: 2em;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    line-height:1.8em;
+    border-radius: 1em;
+  }
+  .topnav a .icon {
+    background:#E9E9E9;
+    display: block;
+    position: absolute !important;
+    right: 0;
+    top: 0;
+  }
+  #content{
+    justify-content:center;
+    margin-left:auto;
+}
+}
+@media screen and (max-width: 672px){
+    #colories h2{ 
+        font-size: 70px;
+        padding:50px;}
+    #content{
+        margin-left:-30px;
+        }
+        
+     
+}
+@media screen and (max-width: 570px){
+    #colories h2{ 
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 500px){
+    .search{
+        width:400px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 412px){ 
+    #colories{
+        margin: 0px;
+        width:auto;  
+    } 
+   
+}

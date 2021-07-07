@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily recipes</title>
+  <link rel="stylesheet" href="nutrition.css">
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+  <script defer src="nutrition.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="navbar">
+
+    <nav class="columns">
+      <ul>
+        <li><a class="navbar-button" id="home" href="index%20.html">WHAT DO YOU WANT TO COOK?</a></li>
+        <li><a class="navbar-button" href="index%20.html#category">CATEGORIES</a></li>
+        <li><a class="navbar-button" href="nutrition.html">NUTRITION</a></li>
+        <!-- <li><a class="navbar-button" href="water.html">WATER</a></li> -->
+      </ul>
+    </nav>
+  </div>
+  <div class="topnav">
+    <div id="myLinks">
+      <a class="navbar-button" href="index%20.html" onclick="closeBars()">SEARCH FOR RECIPE</a>
+      <a class="navbar-button" href="index%20.html#category" onclick="closeBars()">CATEGORIES</a>
+      <a class="navbar-button" href="nutrition.html" onclick="closeBars()">NUTRITION</a>
+      <!-- <a class="navbar-button" href="water.html" onclick="closeBars()">WATER</a> -->
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunctionMy()">
+      <i class="fa fa-bars" id="fa-bars"></i>
+    </a>
+  </div>
+
+<div class="flex">
+<div class="example"> 
+  <div id="colories">
+    <h2>NUTRITION ANALYSIS</h2>
+    <!-- <img id="mush" src="mush.jpeg"> -->
+  </div>
+  <div class="sb-example-1">
+    <div class="search">
+      <textarea id="text-field" type="text" class="searchTerm"
+        placeholder="Enter the ingredient: 1 cup rice, 1 apple or 100 g of mushrooms, etc."></textarea>
+      <button id="searchBtn" type="submit" class="searchButton">ANALYZE
+      </button>
+    </div>
+  </div>
+</div>
+  <div id="content"></div>
+</div>
+
+  <footer>
+    <p><i class="fa fa-copyright"></i>2021 Rutatulis Svaigulys</p>
+  </footer>
+
+</body>
+<script defer src="newScript.js" charset="utf-8"></script>
+
+</html>
